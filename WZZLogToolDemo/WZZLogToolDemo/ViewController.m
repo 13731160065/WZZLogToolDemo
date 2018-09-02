@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#define WZZLogTool_Is_log_def_open 1
+#import "WZZLogTool.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"%@", @"abcabc");
 }
 
 

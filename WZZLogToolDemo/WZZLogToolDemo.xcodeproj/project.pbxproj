@@ -20,6 +20,7 @@
 		713FBBB5213B0E5800DEFF93 /* logMove@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FBBAF213B0E5800DEFF93 /* logMove@3x.png */; };
 		713FBBB6213B0E5800DEFF93 /* logMove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FBBB0213B0E5800DEFF93 /* logMove@2x.png */; };
 		713FBBB7213B0E5800DEFF93 /* WZZLogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713FBBB2213B0E5800DEFF93 /* WZZLogView.xib */; };
+		71A6BD61213B80290050CE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A6BD60213B80290050CE9B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		713FBBB0213B0E5800DEFF93 /* logMove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logMove@2x.png"; sourceTree = "<group>"; };
 		713FBBB1213B0E5800DEFF93 /* WZZLogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZLogTool.h; sourceTree = "<group>"; };
 		713FBBB2213B0E5800DEFF93 /* WZZLogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZZLogView.xib; sourceTree = "<group>"; };
+		71A6BD60213B80290050CE9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A6BD61213B80290050CE9B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 				713FBB91213B0E3300DEFF93 /* WZZLogToolDemoTests */,
 				713FBB9C213B0E3300DEFF93 /* WZZLogToolDemoUITests */,
 				713FBB77213B0E3300DEFF93 /* Products */,
+				71A6BD5F213B80280050CE9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +161,14 @@
 				713FBBAF213B0E5800DEFF93 /* logMove@3x.png */,
 			);
 			path = WZZLogTool;
+			sourceTree = "<group>";
+		};
+		71A6BD5F213B80280050CE9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A6BD60213B80290050CE9B /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
