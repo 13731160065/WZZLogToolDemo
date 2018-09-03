@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-#define WZZLogTool_Is_log_def_open 1
-#import "WZZLogTool.h"
 
 @interface ViewController ()
 

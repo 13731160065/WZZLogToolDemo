@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WZZLogTool"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "WZZLogTool是一个在APP页面打印NSLog日志的工具类"
 
   # This description is used to generate tags and improve search results.

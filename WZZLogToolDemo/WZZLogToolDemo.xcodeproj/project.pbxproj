@@ -64,6 +64,7 @@
 		713FBBB0213B0E5800DEFF93 /* logMove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logMove@2x.png"; sourceTree = "<group>"; };
 		713FBBB1213B0E5800DEFF93 /* WZZLogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZLogTool.h; sourceTree = "<group>"; };
 		713FBBB2213B0E5800DEFF93 /* WZZLogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZZLogView.xib; sourceTree = "<group>"; };
+		7150B656213D306A00217787 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		71A6BD60213B80290050CE9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -120,6 +121,7 @@
 				713FBBAB213B0E5800DEFF93 /* WZZLogTool */,
 				713FBB79213B0E3300DEFF93 /* AppDelegate.h */,
 				713FBB7A213B0E3300DEFF93 /* AppDelegate.m */,
+				7150B656213D306A00217787 /* PrefixHeader.pch */,
 				713FBB7C213B0E3300DEFF93 /* ViewController.h */,
 				713FBB7D213B0E3300DEFF93 /* ViewController.m */,
 				713FBB7F213B0E3300DEFF93 /* Main.storyboard */,
@@ -476,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7CJVBG74C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WZZLogToolDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WZZLogToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZLogToolDemo;
@@ -490,6 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7CJVBG74C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WZZLogToolDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WZZLogToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZLogToolDemo;
