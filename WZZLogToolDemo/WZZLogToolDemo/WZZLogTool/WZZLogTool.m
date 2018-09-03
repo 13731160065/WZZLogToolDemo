@@ -47,9 +47,6 @@ static WZZLogTool * wzzLogTool;
 + (void)registerShowLog:(WZZLogTool_ShowAction)action
                  window:(UIWindow *)window {
 #if WZZLogTool_Is_log_def_open
-#else
-    return;
-#endif
     switch (action) {
         case WZZLogTool_ShowAction_PointView:
         {
@@ -87,6 +84,7 @@ static WZZLogTool * wzzLogTool;
     
     [window addSubview:[WZZLogTool shareInstance].logPointView];
     [window addSubview:[WZZLogTool shareInstance].logBackView];
+#endif
 }
 
 //MARK:点击手势
